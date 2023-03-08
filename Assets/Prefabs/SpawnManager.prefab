@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5328618595821400383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5328618595821400352}
+  - component: {fileID: 5328618595821400353}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Spawnable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5328618595821400352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328618595821400383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5328618595821400353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328618595821400383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97aa4705308e9f408c8990c2feed528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _map: {fileID: 7266987649803968681, guid: 34ecb98708a48f04c9b8e87ad8a344f4, type: 3}
+  cube: {fileID: 3326555203181156814, guid: b48e0ef62254d0c40bff546406f99301, type: 3}
+  canvasObject: {fileID: 3150686410508477722, guid: 523e235bf90487e48a52c663038e92d6,
+    type: 3}
+  eventObject: {fileID: 636929064533385100, guid: 048caa57aef71fa4fb416e527aafd0e5,
+    type: 3}
+  sun: {fileID: 358290056414052566, guid: 5a04b08a73177394caa03a1645bff326, type: 3}
+  allContainerPrefab: {fileID: 683597971941113957, guid: 5b97d03426b0d744ab2aec9da7f4bce6,
+    type: 3}
+  cubeContainerPrefab: {fileID: 3109481656070932875, guid: 30bbd6113d02af647ae157b41609c65b,
+    type: 3}
+  cylinderContainerPrefab: {fileID: 6625389125481436464, guid: 32c29cfe49f134748aa37a2c11c32018,
+    type: 3}
+  locationPrefab: {fileID: 5907706817255436089, guid: 640a35de4f8d3fc4e9ecab9568c9b178,
+    type: 3}
+  roadPrefab: {fileID: 6532249113734774962, guid: c8febef23ad83394f94e5f8421a8e8c0,
+    type: 3}
+  cylinderPrefab: {fileID: 2828051642559693683, guid: 681b80eef2daca24f9121b8cd06f925f,
+    type: 3}
+  scale: {x: 1, y: 1, z: 1}
+  startLocation:
+    x: 6.302491883522061
+    y: 62.46797962783868
