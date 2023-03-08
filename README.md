@@ -1,5 +1,12 @@
 # AR-City-Digital-twin
 AR Digital twin made in Unity 3D
+Video:
+https://youtu.be/4pIPv2e1HNo
+
+
+Pictures:
+
+
 Ar application overview
 ![Fig-AR](https://user-images.githubusercontent.com/50069617/223728763-21199fe9-8b3a-40a9-9fb6-92f55315ff1b.jpg)
 Visualizing Traffic
